@@ -384,3 +384,7 @@ body {
     text-align: center;
     background: url(../img/store02.jpg) no-repeat center center/cover;
 }
+
+.flagshipStore a {
+    display: block;
+}
