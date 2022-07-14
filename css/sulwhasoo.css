@@ -184,7 +184,7 @@ body {
     display: none;
 }
 
-/* 베스트셀러 */
+/* 베스트셀러 슬라이드*/
 .bestSeller {
     padding: 100px 0;
     text-align: center;
@@ -264,6 +264,7 @@ body {
     opacity: 0.4;
 }
 
+/* 유튜브동영상 */
 .sulPost {
     padding: 100px 0;
 }
@@ -277,5 +278,80 @@ body {
 
 .sulPost .background {
     background: url(../img/background.jpg) no-repeat fixed center center/cover;
-    height: 50vh;
+    height: 500px;
+}
+
+.sulPost .container {
+    display: flex;
+    gap: 30px;
+}
+
+.sulPost .container>div {
+    flex: 1;
+}
+
+.sulPost .left .box {
+    position: relative;
+    padding-bottom: 59.25%;
+}
+
+.sulPost .left iframe {
+    position: absolute;
+    margin: 75px 0 0 0;
+}
+
+.sulPost .right {
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    text-align: center;
+}
+
+.sulPost .right .box {
+    margin: 180px 0 0 0;
+}
+
+.sulPost .right h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.sulPost .right p {
+    font-size: 17px;
+    margin: 0 0 30px 0;
+}
+
+.sulPost .right strong {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* 서비스 앤 스파 */
+
+/* 플래그십 스토어 */
+.flagshipStore {
+    padding: 100px 0;
+}
+
+.flagshipStore h2 {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.flagshipStore .store {
+    display: flex;
+}
+
+.flagshipStore .store>div {
+    flex: 1;
+}
+
+.flagshipStore .left {
+    background: url(../img/store01.jpg) no-repeat center center/cover;
+}
+
+.flagshipStore .right {
+    background: url(../img/store02.jpg) no-repeat center center/cover;
 }
