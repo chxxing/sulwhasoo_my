@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 1px solid #f00;
-} */
+}
 
 body {
     letter-spacing: -0.025em;
@@ -340,6 +340,27 @@ body {
     margin: 0 0 50px 0;
 }
 
+.flagshipStore h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.flagshipStore p {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+.flagshipStore strong {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    background: #444;
+    border: 1px solid #ddd;
+    padding: 10px 30px;
+}
+
 .flagshipStore .store {
     display: flex;
 }
@@ -349,9 +370,21 @@ body {
 }
 
 .flagshipStore .left {
+    padding: 250px 0;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    text-align: center;
     background: url(../img/store01.jpg) no-repeat center center/cover;
 }
 
 .flagshipStore .right {
+    padding: 250px 0;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    text-align: center;
     background: url(../img/store02.jpg) no-repeat center center/cover;
+}
+
+.flagshipStore a {
+    display: block;
 }
